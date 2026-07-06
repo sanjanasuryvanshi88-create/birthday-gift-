@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Deepak ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Level 1: Boot Sequence -->
+        <div id="level-1" class="level hidden">
+            <div class="terminal-container">
+                <div class="terminal-header">LoveOS v1.0</div>
+                <div class="terminal-content">
+                    <div id="boot-text"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 2: Password Challenge -->
+        <div id="level-2" class="level hidden">
+            <div class="terminal-container">
+                <div class="terminal-header">SECURE VAULT</div>
+                <div class="terminal-content">
+                    <div class="heart-small">
+       .::::.     .::::.
+     ::::::::::. ::::::::::
+    :::::::::::::::::::::::
+    :::::::::::::::::::::::
+     :::::::::::::::::::::
+       :::::::::::::::::
+         :::::::::::::
+           :::::::::
+             :::::
+               :
+                    </div>
+                    <div id="vault-text"></div>
+                    <div id="password-section" style="display: none;">
+                        <input 
+                            type="password" 
+                            id="password-input" 
+                            placeholder="Enter password to unlock vault..."
+                            class="password-input"
+                        >
+                        <div id="password-feedback"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 3: Birthday Letter -->
+        <div id="level-3" class="level hidden">
+            <div class="terminal-container">
+                <div class="terminal-header">BIRTHDAY LETTER</div>
+                <div class="terminal-content">
+                    <div class="heart-small">
+       .::::.     .::::.
+     ::::::::::. ::::::::::
+    :::::::::::::::::::::::
+    :::::::::::::::::::::::
+     :::::::::::::::::::::
+       :::::::::::::::::
+         :::::::::::::
+           :::::::::
+             :::::
+               :
+                    </div>
+                    <div id="letter-text"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grand Finale -->
+        <div id="finale" class="level hidden">
+            <div class="finale-container">
+                <div class="banner">█ █ █ █ █ █ █ █ █ █ █ █ █ █ █</div>
+                <div id="finale-heading"></div>
+                <div id="finale-lines"></div>
+                <div class="heart-big">
+      ***       ***
+    *******   *******
+    ***************** 
+    ***************** 
+      ***************
+        ***********
+          *******
+            ***
+             *
+                </div>
+                <div id="finale-footer"></div>
+                <div class="banner">█ █ █ █ █ █ █ █ █ █ █ █ █ █ █</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
